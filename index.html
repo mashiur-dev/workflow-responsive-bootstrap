@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>WorkFlow - Responsive portfolio theme</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="preloader">
+       <div class="spinner"></div>
+    </div><!-- Preloader -->
+    <span id="wfscrollto-top"></span><!-- Scroll to top -->
+    
+    <!--***** Header Area *****-->
+    <header id="header_menu">
+        <div class="main-nav navbar" data-spy="affix" data-offset-top="400">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav-collapse-tigger" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/wlogo.png" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="main-nav-collapse-tigger">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#header_menu">Home</a></li>
+                        <li><a href="#features_area">Features</a></li>
+                        <li><a href="#about_area">About</a></li>
+                        <li><a href="#portfolio_area">Portfolios</a></li>
+                        <li><a href="#pricing_area">Pricing</a></li>
+                        <li><a href="#testimonial_area">Testimonials</a></li>
+                        <li><a href="#contact-info">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!--***** Welcome Area *****-->
+    <div id="welcome_area">
+        <div class="carousel_area">
+            <div id="carousel-main-slider" class="carousel slide" data-interval="50000000" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-main-slider" data-slide-to="1"></li>
+                <li data-target="#carousel-main-slider" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="bg_overlay item active" style="background-image:url(img/slider.jpg);">
+                    <div class="carousel-table">
+                        <div class="carousel-table-cell">
+                            <h1 data-animation="animated bounceInLeft">Lorem ipsum dolor sit amet</h1>
+                            <h2 data-animation="animated bounceInRight">sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h2>
+                            <a href="" class="bbutton" data-animation="animated zoomInUp">Learn more</a>                                        
+                        </div>
+                    </div>
+                </div>
+                <div class="bg_overlay item" style="background-image:url(img/about_4.jpg);">
+                    <div class="carousel-table">
+                        <div class="carousel-table-cell">
+                            <h1 data-animation="animated bounceInDown">Quis nostrud exerci tation ullamcorper</h1>
+                            <h2 data-animation="animated bounceInUp">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</h2>
+                            <a href="" class="bbutton" data-animation="animated zoomInRight">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg_overlay item" style="background-image:url(img/about_2.jpg);">
+                    <div class="carousel-table">
+                        <div class="carousel-table-cell">
+                            <h1  data-animation="animated zoomInLeft">Exerci tation ullamcorper suscipit</h1>
+                            <h2  data-animation="animated flipInY">commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit</h2>
+                            <a href="" class="bbutton" data-animation="animated lightSpeedIn">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div> <!-- Carousel -->
+        </div>
+    </div>
+    
+    <!--***** Features Area *****-->
+    <section id="features_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h3>Creative</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et velit a massa vehicula cursus ac ac felis. Praesent posuere.</p>
+                        <i class="fa fa-tree" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et velit a massa vehicula cursus ac ac felis. Praesent posuere.</p>
+                        <i class="fa fa-terminal" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature">
+                        <h3>Friendly Support</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et velit a massa vehicula cursus ac ac felis. Praesent posuere.</p>
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** About Area *****-->
+    <section id="about_area">
+        <div class="container">
+            <div data-animated="fadeIn" class="sheader animated">
+                <span>Know more</span>
+                <h2>About me</h2>
+            </div>
+            <div class="row">
+                <div data-animated="fadeIn" class="about animated ">
+                    <div class="col-md-4 col-sm-4">
+                        <img src="img/author1.jpg" alt="">
+                    </div>
+                    <div class="col-md-8 col-sm-8">
+                        <h1>Michel Dupont</h1>
+                        <h2>FrontEnd Developer And Designer</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <a class="bbutton" href="">Hire Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** Skills Area *****-->
+    <section id="skills_area">
+        <div class="container">
+            <div class="sheader">
+                <span>check out</span>
+                <h2>My Skills</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-5 animated" data-animated="bounceInLeft">
+                    <div class="skprocess">
+                        <span>JavaScript</span>
+                        <div style="width:70%;" class="skprocess-inner"></div>
+                    </div>
+                    <div class="skprocess">
+                        <span>jQuery</span>
+                        <div style="width:80%;" class="skprocess-inner"></div>
+                    </div>
+                    <div class="skprocess">
+                        <span>Photoshop</span>
+                        <div style="width:40%;" class="skprocess-inner"></div>
+                    </div>
+                </div>
+                <div class="col-md-offset-2 col-md-5 animated" data-animated="bounceInRight">
+                    <div class="skprocess">
+                        <span>HTML5</span>
+                        <div style="width:90%;" class="skprocess-inner"></div>
+                    </div>
+                    <div class="skprocess">
+                        <span>CSS</span>
+                        <div style="width:70%;" class="skprocess-inner"></div>
+                    </div>
+                    <div class="skprocess">
+                        <span>PHP</span>
+                        <div style="width:80%;" class="skprocess-inner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!--***** Portfolio Area *****-->
+    <section id="portfolio_area">
+        <div class="container">
+            <div class="sheader">
+                <span>Some of our</span>
+                <h2>Recent works</h2>
+            </div>
+            <ul class="mufilter"><!-- portfolio filter -->
+                <li><span data-filter="all" class="filter active">All</span></li>
+                <li><span class="filter" data-filter=".webdv">Web Development</span></li>
+                <li><span class="filter" data-filter=".webdg">Web Design</span></li>
+                <li><span class="filter" data-filter=".app">App</span></li>
+            </ul>
+            <div id="muportfolio"><!-- Single portfolio items wrap -->
+                <div class="mix webdv">
+                    <img href="img/project1.jpg" rel="prettyPhoto" src="img/project1.jpg" alt="" />
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDevelopment</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix app">
+                    <img href="img/project2.jpg" rel="prettyPhoto" src="img/project2.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>App</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix webdg">
+                    <img href="img/project3.jpg" rel="prettyPhoto" src="img/project3.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDesign</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix app">
+                    <img href="img/project4.jpg" rel="prettyPhoto" src="img/project4.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>App</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix webdv">
+                    <img src="img/project1.jpg"  alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDevelopment</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix webdg">
+                    <img src="img/project2.jpg"  alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDesign</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix app">
+                    <img src="img/project3.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>App</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix webdv">
+                    <img src="img/project4.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDevelopment</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix webdg">
+                    <img src="img/project1.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDesign</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix webdv">
+                    <img src="img/project2.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDevelopment</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix app">
+                    <img src="img/project3.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>App</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="mix webdg">
+                    <img src="img/project4.jpg" alt=""/>
+                    <div class="info">
+                        <h3>Name of Portfolio</h3>
+                        <h4>WebDesign</h4>
+                        <a href="#"><i class="fa fa-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** Projct Count Area *****-->
+    <section id="project_counting_area" class="notscrolled">
+        <div class="container">
+            <div class="row">
+                <div class="sheader">
+                    <span>Check</span>
+                    <h2>What we've did</h2>
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                    <div class="project_counting">
+                        <span><i class="fa fa-coffee" aria-hidden="true"></i><span class="count">1800</span></span>
+                        <h4>Cups of Tea</h4>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-6">
+                    <div class="project_counting">
+                        <span><i class="fa fa-code" aria-hidden="true"></i><span class="count">400</span></span>
+                        <h4>Hrs Of code</h4>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-6">
+                    <div class="project_counting">
+                        <span><i class="fa fa-bookmark-o" aria-hidden="true"></i><span class="count">1200</span></span>
+                        <h4>Projects done</h4>
+                    </div>
+                </div>
+                <div class="col-md-2 col-md-offset-1 col-sm-3 col-xs-6">
+                    <div class="project_counting">
+                        <span><i class="fa fa-user" aria-hidden="true"></i><span class="count">500</span></span>
+                        <h4>Testimonials</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** Pricing Table Area *****-->
+    <section id="pricing_area">
+        <div class="container">
+            <div class="row">
+                <div class="sheader">
+                    <span>Our</span>
+                    <h2>Pricing</h2>
+                </div>
+                <div class="col-md-4 col-sm-4 pricing">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <h3>Home</h3>
+                    <p>Single user license</p>
+                    <div class="cost">
+                        <span class="amount"><span>$</span>10</span>
+                        <span class="time">per month</span>
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>1 GB space</li>
+                            <li>Support at $25/hour</li>
+                            <li>Small social media package</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="buyaction bbutton">Choose Now</a>
+                </div>
+                <div class="col-md-4 col-sm-4 pricing">
+                    <i class="fa fa-building-o" aria-hidden="true"></i>
+                    <h3>Small Team</h3>
+                    <p>Up to 5 users</p>
+                    <div class="cost">
+                        <span class="amount"><span>$</span>50</span>
+                        <span class="time">per month</span>
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>5 GB space</li>
+                            <li>Free Support</li>
+                            <li>Full social media package</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="buyaction bbutton">Choose Now</a>
+                </div>
+                <div class="col-md-4 col-sm-4 pricing">
+                    <i class="fa fa-industry" aria-hidden="true"></i>
+                    <h3>Industril</h3>
+                    <p>Unlimited users</p>
+                    <div class="cost">
+                        <span class="amount"><span>$</span>90</span>
+                        <span class="time">per month</span>
+                    </div>
+                    <div class="features">
+                        <ul>
+                            <li>Unlimited space</li>
+                            <li>Free Support</li>
+                            <li>Full social media package</li>
+                        </ul>
+                    </div>
+                    <a href="#" class="buyaction bbutton">Choose Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** Call to action *****-->
+    <section id="call-to-action" class="bg_overlay" style="background: url('img/about_4.jpg') no-repeat center center;">
+        <div class="container">
+            <div class="row">
+            <h2>Already got an idiea about us?</h2>
+            <a href="" class="bbutton">Contact now</a>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** Testimonials Area *****-->
+    <section id="testimonial_area">
+        <div class="sheader">
+            <span>Check our</span>
+            <h2>Testimonials</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div id="carousel-testimonail" class="carousel slide" data-ride="carousel">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <div class="author-info">
+                               <img src="img/author1.jpg" alt="">
+                               <h3>Jacob Brunette<span>Google Inc.</span></h3>
+                            </div>
+                            <div class="author-quote">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum</div>
+                        </div>
+                        <div class="item">
+                            <div class="author-info">
+                               <img src="img/author2.jpg" alt="">
+                               <h3>Jacob Brunette<span>Google Inc.</span></h3>
+                            </div>
+                            <div class="author-quote">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum</div>
+                        </div>
+                        <div class="item">
+                            <div class="author-info">
+                               <img src="img/author3.jpg" alt="">
+                               <h3>Jacob Brunette<span>Google Inc.</span></h3>
+                            </div>
+                            <div class="author-quote">Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum</div>
+                        </div>
+                      </div>
+                      <!-- Controls -->
+                      <div class="carosel-navs">
+                            <a href="#carousel-testimonail" role="button" data-slide="prev">
+                              <i class="fa fa-angle-left" aria-hidden="true"></i>
+                            </a>
+                            <a href="#carousel-testimonail" role="button" data-slide="next">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** Contact info area *****-->
+    <section id="contact-info">
+        <div class="container-fluid">
+           <div class="sheader">
+                <h2>Contact me</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="info phone">
+                        <h3><i class="fa fa-phone" aria-hidden="true"></i> Phone</h3>
+                        <P>+8801735216439</P>
+                        <P>+001532510000</P>
+                    </div>
+                    <div class="info email">
+                        <h3><i class="fa fa-envelope-o" aria-hidden="true"></i> Email</h3>
+                        <P>contact@domin.com</P>
+                        <P>me@website.com</P>                    
+                    </div>
+                    <div class="info address">
+                        <h3><i class="fa fa-map-o" aria-hidden="true"></i> Adress</h3>
+                        <P>Dhaka, 1000</P>
+                        <P>Bangladesh</P>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--***** Contact Form Area *****-->
+    <section id="contact-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-md-6 input">
+                                <input type="text" placeholder="Your Name" required="required" class="form-control" name="name">
+                                <span></span>
+                            </div>
+                            <div class="col-md-6 input">
+                                <input type="email" placeholder="Your Email" required="required" class="form-control" name="email">
+                                <span></span>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="input">
+                                    <textarea placeholder="Your Text" rows="8" class="form-control" required="required" name="message"></textarea>
+                                    <span></span>
+                                </div>
+                                <button>Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer_area"><!--***** Footer Area *****-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 copyright">
+                    <p>Developed with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://mashiurz.com">Mashiurz</a></p>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <ul class="social_links">
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js">\x3C/script>')</script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/waypoits.min.js"></script>
+    <script src="js/coumterups.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

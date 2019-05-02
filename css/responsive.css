@@ -1,0 +1,279 @@
+/* lg */
+
+@media (min-width: 1400px) {}
+
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* #header_menu */
+    #header_menu .main-nav {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #header_menu .navbar-collapse {
+      margin-top: 12px;
+    }
+    #header_menu .navbar-nav a {
+        margin: 0 2px;
+    }
+}
+
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*========================
+    ******** Typography *******
+    =========================*/
+    section,
+    #portfolio_area,
+    #about_area,
+    #footer_area,
+    #pricing_area,
+    #call-to-action {
+        padding: 35px 0;
+    }
+    /* #header_menu */
+    #header_menu .main-nav {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    #header_menu .navbar-brand > img {
+        width: 100px;
+    }
+    #header_menu .navbar-collapse {
+        margin-top: 7px;
+    }
+    #header_menu .navbar-nav a {
+        margin: 0 2px;
+    }
+    /* main carousel */
+    .carousel-table-cell > h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .carousel-table-cell > h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
+
+
+/* xs */
+
+@media (max-width: 767px) {
+    /*========================
+    ******** Typography *******
+    =========================*/
+    section,
+    #portfolio_area,
+    #about_area,
+    #footer_area,
+    #pricing_area,
+    #call-to-action {
+        padding: 35px 0;
+    }
+    h1 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+    h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    h5 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    h6 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .sheader {
+        margin: 5px 0 30px;
+    }
+    .sheader > span {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .sheader > h2 {
+        font-size: 22px;
+        padding-bottom: 2px;
+    }
+    /* #header_menu */
+     header#header_menu {
+      background: rgba(61, 73, 85, 0.26) none repeat scroll 0 0;
+         
+        background: rgb(123,142,161); /* Old browsers */
+        background: -moz-linear-gradient(center top , rgba(61, 73, 85, 1) 0%, rgba(143, 147, 149, 0) 100%); /* FF3.6-15 */
+        background: -webkit-linear-gradient(center top , rgba(61, 73, 85, 1) 0%, rgba(143, 147, 149, 0) 100%); /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(61, 73, 85, 1) 0%, rgba(143, 147, 149, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3D4955', endColorstr='#637689',GradientType=0 ); /* IE6-9 */
+         
+         
+    }
+    #header_menu .navbar.main-nav {
+        margin: 0;
+        padding: 0;
+    }
+    #header_menu .navbar-header {
+        width: 100%;
+    }
+    #header_menu .navbar-toggle {
+        border: 1px solid #ddd;
+        z-index: 9999;
+    }
+    #header_menu .navbar-toggle .icon-bar {
+        background: #fff none repeat scroll 0 0;
+        color: #fff;
+    }
+    #header_menu a.navbar-brand {
+        padding: 8px 15px;
+    }
+    #header_menu .navbar-brand > img {
+        width: 85px;
+    }
+    #header_menu .navbar-collapse {
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+    #header_menu ul.navbar-nav {
+        float: none;
+        text-align: left;
+    }
+    #header_menu .navbar-nav > li::before {
+        content: "";
+        position: static;
+    }
+    #header_menu .navbar-nav a {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 6px 0;
+    }
+    /* main carousel */
+    .carousel-table-cell > h1 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 12px 0;
+    }
+    .carousel-table-cell > h2 {
+        font-size: 14px;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+    /* About */
+    .about img {
+        margin-bottom: 20px;
+    }
+    .about div {
+        text-align: center;
+    }
+    .about a.bbutton {
+        float: none;
+    }
+    .about h1 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .about h2 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .about p {
+        margin: 10px 0;
+    }
+    /* pricing */
+    #pricing_area .pricing {
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+    /* contact area */
+    #contact-info .info {
+        display: block;
+        margin: 12px auto;
+        width: 100%;
+    }
+    /* footer area */
+    .copyright {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .social_links {
+        text-align: center;
+    }
+}
+
+
+/* XS Portrait */
+
+@media (max-width: 479px) {
+    /* main carousel */
+    .carousel-table-cell > h1 {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+    .carousel-table-cell > h2 {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 8px 0;
+    }
+    /* Project counter */
+    .project_counting > span {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .project_counting > h4 {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+    /* testimonials */
+    .author-info {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .author-quote {
+        margin-top: 12px;
+        width: 100%;
+        font-size: 14px;
+        line-height: 15px;
+        float: none;
+    }
+    .carosel-navs {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .carosel-navs > a {
+        padding: 4px 50px;
+    }
+    /* footer */
+    .social_links li {
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    /*Header menu*/
+    #header_menu .affix .navbar-brand > img {
+        height: 40px;
+    }
+    #header_menu .affix .navbar-collapse {
+        margin-top: 2px;
+    }
+    #header_menu .affix .navbar-brand {
+        padding: 8px 0;
+    }
+}
